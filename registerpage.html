@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <meta name="description" content="Sign up screen">
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+</head>
+</header>
+<body>
+<div id="page-container">
+    <div id="page-wrap">
+        <header class="header">
+            <div class="logo"><span>Logo</span></div>
+            <div class="greeting"><h2>White Clouds</h2></div>
+            <div class="navbar">
+                <button onclick="window.location.href = 'homepage.html'" class="headerbutton" id="homebutton">Home</button>
+                <button onclick="window.location.href = 'loginpage.html'" class="headerbutton" id="loginpage">Sign in</button>
+                <button onclick="window.location.href = 'registerpage.html'" class="headerbutton" id="registerpage">Sign up</button>
+                <button onclick="window.location.href = 'userlistpage.html'" class="headerbutton" id="userspage">Users</button>
+            </div>
+        </header>
+        <div id="loginpage-container">
+            <div class="loginfield" id="loginfield">
+                <div id="logintext">Sign up</div>
+                <div id="emailtext">E-mail</div>
+                <input type="text" class="emailfield" id="registeremailfield">
+                <div id="passwordtext">Password</div>
+                <input type="password" class="passwordfield" id="registerpasswordfield">
+            </div>
+        </div>
+        <footer id="footer">
+            <button onclick="window.location.href = 'homepage.html'" class="footerbutton" id="homepagefooter">Home</button>
+            <button onclick="window.location.href = 'loginpage.html'" class="footerbutton" id="loginpagefooter">Sign in</button>
+            <button onclick="window.location.href = 'registerpage.html'" class="footerbutton" id="registerpagefooter">Sign up</button>
+            <button onclick="window.location.href = 'userlistpage.html'" class="footerbutton" id="userspagefooter">Users</button>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

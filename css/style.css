@@ -1,0 +1,208 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #F7F7F7;
+    padding: auto;
+}
+
+.headerbutton {
+    width: 15%;
+    text-align: center;
+    padding: 25px 0;
+    border: 1px solid #F7F7F7;
+    height: auto;
+    background: none;
+}
+
+.headerbutton:hover {
+    border-bottom-color: #000000;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+}
+
+#page-wrap {
+    padding-bottom: 5rem;
+}
+
+#footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: #F7F7F7;
+}
+
+.footerbutton {
+    padding: 20px 30px;
+    background: none;
+    border: 1px solid #F7F7F7;
+}
+
+.footerbutton:hover {
+    border-top-color: #000000;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    align-items: stretch;
+    justify-content: center;
+    background: #F7F7F7;
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    border: 1px solid #F7F7F7;
+    border-bottom-color: #000000;
+}
+
+.navbar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.intro-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.introtext {
+    text-align: center;
+    padding: 3% 15%;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.photogallery {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+}
+
+.photo {
+    box-sizing: content-box;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    color: #d3d3d3;
+    border: 1px solid #d3d3d3;
+}
+
+.video {
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: #d3d3d3;
+    border: 1px solid #d3d3d3;
+}
+
+.text {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.videogallery {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+#loginpage-container {
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginfield {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    background: #F7F7F7;
+}
+
+#logintext {
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#emailtext {
+    margin-left: 15%;
+}
+
+.emailfield {
+    margin-left: 15%;
+    min-width: 70%;
+}
+
+#passwordtext {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.passwordfield{
+    margin-left: 15%;
+    margin-bottom: 10%;
+    min-width: 70%;
+}
+
+#userfield {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    padding: 20px 0 50px 0;
+    border-radius: 20px;
+    background: #F7F7F7;
+}
+
+#userlist {
+    border-collapse: collapse;
+    border: 1px solid #808080;
+}
+tr td {
+    padding: 10px;
+    border: 1px solid #808080;
+}
